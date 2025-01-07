@@ -11,14 +11,6 @@ body {
     background-color: #f9f9f9;
 }
 
-
-.box-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 15px; 
-}
-
 .box {
     border:50px solid red;
     padding:50px;
@@ -34,10 +26,11 @@ body {
     border-color:blue;
   }
 
-
-.link-container {
-    margin-top: 20px; 
-    text-align: center;
+  .box-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px; 
 }
 
 .link {
@@ -49,6 +42,11 @@ body {
     border-radius: 5px;
     font-size: 16px;
     transition: background-color 0.3s ease;
+}
+
+.link-container {
+    margin-top: 20px; 
+    text-align: center;
 }
 
 .link:hover {
